@@ -1,5 +1,5 @@
 section .data
-    result db "%d", 10, 0 ; формат вывода для printf
+    result db "%d", 10, 0 
 
 section .text
     global _start ; точка входа в программу
