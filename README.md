@@ -1,17 +1,29 @@
-# Simple project on asm
-***
-### Start coding on asm
+# Simple ASM Project
 
-> you need to download nasm and golink
->> 1. <http://www.nasm.us/pub/nasm/releasebuilds/2.16.01/>
->>2. <http://www.godevtool.com/Golink.zip>
+This is a simple project written in Assembly language.
 
->2. add in params 
->> 1. open System > other parameters > environment variables > path 
->> 2. add system parameters in path the path to the folder nasm and golink
+## Getting Started
 
-### Compile asm code using make.bat
-it's simple way to compile asm code
+To start coding in ASM, you need to download two tools: NASM and GoLink. 
+
+1. Download NASM from http://www.nasm.us/pub/nasm/releasebuilds/2.16.01/.
+2. Download GoLink from http://www.godevtool.com/Golink.zip.
+
+After downloading the tools, add them to the system path by following these steps:
+
+1. Open System > Other Parameters > Environment Variables > Path.
+2. Add the path to the folders containing NASM and GoLink.
+
+## Compiling the Code
+
+To compile the ASM code, you can use the `make.bat` file included in the project. Simply run the following command:
+
 ```bash
- .\make.bat name.asm
- ```
+.\make.bat name.asm
+```
+Replace `name.asm` with the actual name of your ASM file.
+
+
+## Contributors
+
+- [Illia Borusov 2023](https://github.com/borisovvilyaa)
