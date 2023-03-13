@@ -22,8 +22,9 @@ To compile the ASM code, you can use the `make.bat` file included in the project
 .\make.bat name.asm
 ```
 Replace `name.asm` with the actual name of your ASM file.
+Use command `/console`  if program is console app
 
 
 ## Contributors
 
-- [Illia Borusov 2023](https://github.com/borisovvilyaa)
+[Illia Borusov](https://github.com/borisovvilyaa)
