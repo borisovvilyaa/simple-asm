@@ -2,7 +2,7 @@
 
 This is a simple project written in Assembly language.
 
-## Getting Started
+## Getting Started NASM
 
 To start coding in ASM, you need to download two tools: NASM and GoLink. 
 
@@ -24,6 +24,22 @@ To compile the ASM code, you can use the `make.bat` file included in the project
 Replace `name.asm` with the actual name of your ASM file.
 
 
+## Getting Started MASM
+
+To start coding in ASM, you need to download MASM
+
+1. Download MASM from https://drive.google.com/file/d/1PTsoxWQP2xg45WMkR_JQuNAvtHOZl3pn/view?usp=sharing 
+Author Steve Hutchesson, Rysovany Alexander Nikolaevich
+2. Create in C:/ folder "masm64"
+3. copy all file in this folder from rar
+4. open masm64/bin64
+5. print in cmd command ".\makeit.bat"
+if all ok, displays the text that the file does not see us
+6. copy test file example program http://blogs.kpi.kharkov.ua/v2/asm/wp-content/uploads/sites/20/2020/08/LR1-64s-1.zip 
+author programm Rysovany Alexander Nikolaevich
+7. print command `.\makeit.bat .\nameprogram` ***without `.asm`***. **Only name!!!!**
+8. in finish, you make `.exe file`. Open his from cmd command `nameprogram.exe`
+9. that all :)
 
 ## Contributors
 
